@@ -25,6 +25,11 @@ public class DefaultDisplayElementRegistrar {
         DisplayElementRegistry.registerWidget(Command.class);
         DisplayElementRegistry.registerWidget(Scheduler.class);
         
+        /*
+         * My lifter! OMG
+         */
+        DisplayElementRegistry.registerWidget(Forklifter.class);
+        
         DisplayElementRegistry.registerStaticWidget(Image.class);
         DisplayElementRegistry.registerStaticWidget(ConnectionIndicator.class);
         DisplayElementRegistry.registerStaticWidget(Label.class);
